@@ -1,4 +1,4 @@
-int StringMatching() {                                           //iterate through the dictionary and exclude dictionary words ending with N, Tra(n)
+int stringMatching() {                                           //iterate through the dictionary and exclude dictionary words ending with N, Tra(n)
     string dictionary_file_name = "dictionary.txt";
     unordered_set<string> dictionary;
     fstream file;
